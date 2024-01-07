@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 interface SearchButtonProps {
-  searchPlayer: () => void; // Update the prop type
+  searchPlayer: () => void; 
 }
 
 const SearchButton: React.FC<SearchButtonProps> = ({ searchPlayer }) => {
